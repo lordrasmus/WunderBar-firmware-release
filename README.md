@@ -10,3 +10,6 @@ Please check the readme files located in the sub-directories for instructions on
 * **"/dfu bootloader"** contains the "over-the-air" bootloader for the NRF51852 MCU. Nordic provides applications and SDK examples for updating the firmware over BLE from Android and iOS.
 * **"/wunderbar_BLE"** contains the main application for the nRF51. Inside is located the FW for the WunderBar Master Module and the 6 sensor nodes.
 * **"/wunderbar_common"** holds common functions and macros necesary for both, the nRF51 and the K24 MCUs.
+
+##License:
+Files contained in this repository are licensed under the MIT license (included as [LICENSE](LICENSE)), unless otherwise specified.
