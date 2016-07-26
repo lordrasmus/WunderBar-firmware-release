@@ -1,0 +1,129 @@
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+- Master module:
+     central device in client mode.
+
+- Onboarding device:
+     peripheral device in server mode.
+     advertizing one service with 7 characteristics (a must because of implementation in master ble module)
+
+- Onboarding sequence:
+     once all config data is entered, onboarding device should start advertising for connection
+     with a button click master module enters config mode, connects and reads parameters from onobarding device
+     after all parameters are read, master module disconnects and resets in order to load new config parameters
+
+
+Device Name: WunderbarApp
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Security:
+-Pairing mechanisms: Just works (no man in the middle (MITM) protection)
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Service UUID: 0x2000
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Characteristics:
+
+-All characteristics have "Require encryption, but no MITM protection" Security Mode, and "Read permissions".
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////// SENSOR PASSKEYS ////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+1) HTU_GYRO_LIGHT_PASSKEY:
+    -UUID: 0x2010
+    -Size: 19 bytes (update_mask included).
+    -Brief: Contain passkeys for HTU, GYRO and LIGHT sensors in ASCII format (chars between 0x30 and 0x39), and update_mask.
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+2) MICROPHONE_BRIDGE_IR_PASSKEY:
+    -UUID: 0x2011
+    -Size: 19 bytes (update_mask included).
+    -Brief: Contain passkeys for MICROPHONE, BRIDGE and IR sensors in ASCII format (chars between 0x30 and 0x39), and update_mask.
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+-Example:  
+           ______________HTU PASSKEY___________  ___________GYRO passkey___________  __________LIGHT passkey___________   _update_mask_
+           {0x31, 0x31, 0x31, 0x31, 0x31, 0x31,  0x32, 0x32, 0x32, 0x32, 0x32, 0x32, 0x32, 0x32, 0x32, 0x32, 0x32, 0x32,       0x6}
+
+-Note: update_mask is in form of "bit-mask". Lowest 3 bits determines which passkey should be updated, and which not. 
+       In this example GYRO and LIGHT passkeys will be updated (update_mask = 0b110).
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////// WIFI credentials //////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+1)WIFI_SSID:
+  -UUID: 0x2012
+  -Size: 20 bytes (terminating character and update_flag included).
+  -Brief: Contain Wifi SSID.
+                             ____________________________________________WIFI SSID____________________________________________________________ _update_flag_
+-Example: "mikroe_ssid" -> {0x6D, 0x69, 0x6B, 0x72, 0x6F, 0x65, 0x5F, 0x73, 0x73, 0x69, 0x64, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00,       0x1}
+
+-Note: update_flag determines whether the parameter should be updated (update_flag = 1) or not (update_flag = 0).
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+2)WIFI_Passkey:
+  -UUID: 0x2013
+  -Size: 20 bytes (terminating character and update_flag included).
+  -Brief: Contain Wifi Passkey. 
+                                    ____________________________________________WIFI PASSKEY________________________________________________________ _update_flag_  
+-Example: "mikroe_key12345678" -> {0x6D, 0x69, 0x6B, 0x72, 0x6F, 0x65, 0x5F, 0x6B, 0x65, 0x79, 0x31, 0x32, 0x33, 0x34, 0x35, 0x36, 0x37, 0x38, 0x00      0x0}
+
+-Note: update_flag determines whether the parameter should be updated (update_flag = 1) or not (update_flag = 0).
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////// MASTER MODULE credentials /////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+1)WUNDERBAR_ID:
+  -UUID: 0x2014
+  -Size: 17 bytes (update_flag included).
+  -Brief: Contain Wunderbar ID
+
+            ______________________________________WUNDERBAR ID____________________________________________ _update_flag_       
+-Example: {0x11, 0x22, 0x33, 0x44, 0x55, 0x66, 0x77, 0x88, 0x99, 0xAA, 0xBB, 0xCC, 0xDD, 0xEE, 0xFF, 0xFF,      0x1}
+
+-Note: update_flag determines whether the parameter should be updated (update_flag = 1) or not (update_flag = 0).
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+2)WUNDERBAR_SECURITY:
+  -UUID: 0x2015
+  -Size: 13 bytes (update_flag included).
+  -Brief: Contain Wunderbar MQTT Security.
+
+            _________________________WUNDERBAR SECURITY____________________________ _update_flag_
+-Example: {0x11, 0x22, 0x33, 0x44, 0x55, 0x66, 0x77, 0x88, 0x99, 0AA, 0xBB, 0xCC,      0x0}
+
+-Note: update_flag determines whether the parameter should be updated (update_flag = 1) or not (update_flag = 0).
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+2)WUNDERBAR_URL:
+  -UUID: 0x2016
+  -Size: 20 bytes (terminating character and update_flag included).
+  -Brief: Contain Wunderbar MQTT Security.
+
+            _________________________WUNDERBAR URL____________________________________________________________________________ _update_flag_
+-Example: {0x01, 0x02, 0x03, 0x04, 0x05, 0x06, 0x07, 0x08, 0x09, 0x10, 0x11, 0x12, 0x13, 0x14, 0x15, 0x16, 0x17, 0x00, 0x00,        0x0}
+
+-Note: update_flag determines whether the parameter should be updated (update_flag = 1) or not (update_flag = 0).
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////

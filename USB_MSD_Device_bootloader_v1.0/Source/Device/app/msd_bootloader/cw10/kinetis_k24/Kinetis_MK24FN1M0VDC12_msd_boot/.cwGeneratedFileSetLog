@@ -1,0 +1,12 @@
+Sources/main.c
+Project_Settings/Linker_Files/MK24FN1M0_ram.lcf
+Project_Settings/Linker_Files/MK24FN1M0_flash.lcf
+Project_Settings/Debugger/MK24FN1M0.mem
+Project_Settings/Startup_Code/kinetis_sysinit.h
+Project_Settings/Startup_Code/kinetis_sysinit.c
+Project_Settings/Debugger/init_kinetis.tcl
+Project_Settings/Debugger/mass_erase_kinetis.tcl
+Project_Headers/derivative.h
+Project_Headers/MK24F12.h
+.settings/com.freescale.core.ide.newprojectwizard.prefs
+ReferencedRSESystems.xml

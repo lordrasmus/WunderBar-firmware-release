@@ -1,0 +1,53 @@
+
+- Sensor module:
+     peripheral device in server mode.
+     advertizing 3 services.
+
+- Onboarding device:
+     central device in client mode.
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Sensor Security:
+-Pairing mechanisms: Just works (no man in the middle (MITM) protection)
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Sensor Services:
+
+1)Config Service:             UUID = 0x2001
+2)Device Information Service: UUID = 0x180A (Bluetooth SIG spec.)
+3)Battery Service:            UUID = 0x180F (Bluetooth SIG spec.)
+ 
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Characteristics for Config Service:
+
+-All characteristics have "Require encryption, but no MITM protection" Security Mode, and "Read and Write permissions".
+
+
+1)Sensor ID:
+  -UUID: 0x2010
+  -Size: 16 bytes.
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+2)Sensor Passkey:
+  -UUID:    0x2018
+  -Size:    6 bytes.
+  -Brief:   Contain passkeys for sensors. Must contain ASCII chars between 0x30 and 0x39.
+  -Example: {0x30, 0x30, 0x30, 0x30, 0x30, 0x30}
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+3)Sensor MITM Require Flag:
+  -UUID:    0x2019
+  -Size:    1 bytes.
+  -Brief:   This flag determines protection mode of sensor:
+              1) flag = 1 -> use MITM protection. In this mode sensor normally connect to wunderbar master board.
+              2) flag = 0 -> not use MITM protection. In this mode sensor will not connect to wunderbar master, 
+                 and other devices (like Android and iOS phones) can do Just Works pairing with sensor.

@@ -1,0 +1,284 @@
+<CodeGenerationInfo>
+  <ToolchainSettings>
+    <option>
+      <name>PE_G_4PEx_ToolChain_Compiler_SearchUserPaths</name>
+      <values lines_count="7">
+        <Line>"${ProcessorExpertPath}/lib/Kinetis/pdd2/MK24FN1M0LQ12/peripherals"</Line>
+        <Line>"${ProcessorExpertPath}/lib/Kinetis/pdd2/MK24FN1M0LQ12/system"</Line>
+        <Line>"${ProcessorExpertPath}/lib/Kinetis/pdd/inc"</Line>
+        <Line>"${ProcessorExpertPath}/lib/Kinetis/iofiles"</Line>
+        <Line>"${ProcessorExpertPath}/lib/Kinetis/pdd/inc"</Line>
+        <Line>"${ProjDirPath}/Sources"</Line>
+        <Line>"${ProjDirPath}/Generated_Code"</Line>
+      </values>
+    </option>
+  </ToolchainSettings>
+  <GeneratedFilesList>
+    <GeneratedByPE>
+      <File Name="Generated_Code/TU2.h" FileDate="2014-06-30, 09:58:02" FileAge="1404115082745" FileType="45637" CompNumb="18" />
+      <File Name="Generated_Code/BitsIoLdd1.h" FileDate="2014-05-12, 11:35:05" FileAge="1399887305969" FileType="45637" CompNumb="22" />
+      <File Name="Static_Code/Peripherals/RNG_Init.c" FileDate="2014-04-08, 08:35:06" FileAge="1396938906533" FileType="262144" />
+      <File Name="Static_Code/Peripherals/AXBS_Init.h" FileDate="2014-04-08, 08:35:05" FileAge="1396938905236" FileType="262144" />
+      <File Name="Generated_Code/ExtIntLdd2.c" FileDate="2014-06-08, 10:08:31" FileAge="1402214911281" FileType="45637" CompNumb="37" />
+      <File Name="Generated_Code/TU2.c" FileDate="2014-06-30, 09:58:02" FileAge="1404115082886" FileType="45637" CompNumb="18" />
+      <File Name="Generated_Code/BitsIoLdd1.c" FileDate="2014-05-12, 11:35:05" FileAge="1399887305969" FileType="45637" CompNumb="22" />
+      <File Name="Documentation/doxygen/TU1.txt" FileDate="2014-06-05, 18:46:31" FileAge="1401986791689" FileType="45637" CompNumb="14" />
+      <File Name="Static_Code/Peripherals/PDB0_Init.h" FileDate="2014-04-08, 08:35:06" FileAge="1396938906065" FileType="262144" />
+      <File Name="Static_Code/Peripherals/AXBS_Init.c" FileDate="2014-04-08, 08:35:05" FileAge="1396938905205" FileType="262144" />
+      <File Name="Static_Code/Peripherals/UART1_Init.h" FileDate="2014-04-08, 08:35:06" FileAge="1396938906814" FileType="262144" />
+      <File Name="Generated_Code/EInt1.h" FileDate="2014-06-04, 20:07:44" FileAge="1401905264767" FileType="45637" CompNumb="19" />
+      <File Name="Static_Code/Peripherals/PDB0_Init.c" FileDate="2014-04-08, 08:35:06" FileAge="1396938906049" FileType="262144" />
+      <File Name="Static_Code/Peripherals/SysTick_Init.h" FileDate="2014-04-08, 08:35:06" FileAge="1396938906768" FileType="262144" />
+      <File Name="Static_Code/Peripherals/FTFE_Init.h" FileDate="2014-04-08, 08:35:05" FileAge="1396938905674" FileType="262144" />
+      <File Name="Static_Code/Peripherals/UART1_Init.c" FileDate="2014-04-08, 08:35:06" FileAge="1396938906799" FileType="262144" />
+      <File Name="Documentation/doxygen/pex.css" FileDate="2014-05-10, 12:48:02" FileAge="1399718882399" FileType="16384" CompNumb="4" />
+      <File Name="Generated_Code/EInt1.c" FileDate="2014-06-04, 20:07:44" FileAge="1401905264705" FileType="45637" CompNumb="19" />
+      <File Name="Static_Code/Peripherals/SysTick_Init.c" FileDate="2014-04-08, 08:35:06" FileAge="1396938906768" FileType="262144" />
+      <File Name="Generated_Code/SM1.h" FileDate="2014-06-12, 22:26:26" FileAge="1402604786696" FileType="45637" CompNumb="65" />
+      <File Name="Static_Code/PDD/GPIO_PDD.h" FileDate="2014-04-08, 08:34:54" FileAge="1396938894330" FileType="262144" />
+      <File Name="Static_Code/Peripherals/FTFE_Init.c" FileDate="2014-04-08, 08:35:05" FileAge="1396938905658" FileType="262144" />
+      <File Name="Generated_Code/PE_Error.h" FileDate="2014-05-12, 11:35:05" FileAge="1399887305953" FileType="45637" />
+      <File Name="Static_Code/Peripherals/CMP2_Init.h" FileDate="2014-04-08, 08:35:05" FileAge="1396938905377" FileType="262144" />
+      <File Name="Static_Code/Peripherals/I2S0_Init.h" FileDate="2014-04-08, 08:35:05" FileAge="1396938905893" FileType="262144" />
+      <File Name="Documentation/doxygen/ExtIntLdd1.txt" FileDate="2014-06-04, 20:07:45" FileAge="1401905265798" FileType="45637" CompNumb="20" />
+      <File Name="Generated_Code/SM1.c" FileDate="2014-06-12, 22:26:26" FileAge="1402604786821" FileType="45637" CompNumb="65" />
+      <File Name="Static_Code/Peripherals/CMT_Init.h" FileDate="2014-04-08, 08:35:05" FileAge="1396938905393" FileType="262144" />
+      <File Name="Static_Code/System/CPU_Init.h" FileDate="2014-04-08, 08:35:07" FileAge="1396938907236" FileType="262144" />
+      <File Name="Static_Code/Peripherals/PIT_Init.h" FileDate="2014-04-08, 08:35:06" FileAge="1396938906080" FileType="262144" />
+      <File Name="Static_Code/Peripherals/CMP2_Init.c" FileDate="2014-04-08, 08:35:05" FileAge="1396938905361" FileType="262144" />
+      <File Name="Static_Code/Peripherals/DAC0_Init.h" FileDate="2014-04-08, 08:35:05" FileAge="1396938905455" FileType="262144" />
+      <File Name="Static_Code/Peripherals/I2S0_Init.c" FileDate="2014-04-08, 08:35:05" FileAge="1396938905893" FileType="262144" />
+      <File Name="Static_Code/Peripherals/CMT_Init.c" FileDate="2014-04-08, 08:35:05" FileAge="1396938905393" FileType="262144" />
+      <File Name="Static_Code/System/CPU_Init.c" FileDate="2014-04-08, 08:35:07" FileAge="1396938907205" FileType="262144" />
+      <File Name="Static_Code/Peripherals/PIT_Init.c" FileDate="2014-04-08, 08:35:06" FileAge="1396938906080" FileType="262144" />
+      <File Name="Static_Code/Peripherals/DMAMUX_Init.h" FileDate="2014-04-08, 08:35:05" FileAge="1396938905518" FileType="262144" />
+      <File Name="Static_Code/Peripherals/DAC0_Init.c" FileDate="2014-04-08, 08:35:05" FileAge="1396938905455" FileType="262144" />
+      <File Name="Static_Code/Peripherals/I2C1_Init.h" FileDate="2014-04-08, 08:35:05" FileAge="1396938905861" FileType="262144" />
+      <File Name="Documentation/doxygen/TimerIntLdd2.txt" FileDate="2014-06-30, 09:58:03" FileAge="1404115083027" FileType="45637" CompNumb="17" />
+      <File Name="Static_Code/Peripherals/VREF_Init.h" FileDate="2014-04-08, 08:35:07" FileAge="1396938907002" FileType="262144" />
+      <File Name="Static_Code/Peripherals/LLWU_Init.h" FileDate="2014-04-08, 08:35:05" FileAge="1396938905940" FileType="262144" />
+      <File Name="Static_Code/Peripherals/DMAMUX_Init.c" FileDate="2014-04-08, 08:35:05" FileAge="1396938905518" FileType="262144" />
+      <File Name="Static_Code/Peripherals/I2C1_Init.c" FileDate="2014-04-08, 08:35:05" FileAge="1396938905846" FileType="262144" />
+      <File Name="Sources/Events.h" FileDate="2014-07-28, 13:18:25" FileAge="1406546305578" FileType="131328" />
+      <File Name="Static_Code/Peripherals/VREF_Init.c" FileDate="2014-04-08, 08:35:06" FileAge="1396938906986" FileType="262144" />
+      <File Name="Static_Code/PDD/RTC_PDD.h" FileDate="2014-04-08, 08:34:55" FileAge="1396938895455" FileType="262144" />
+      <File Name="Static_Code/Peripherals/LLWU_Init.c" FileDate="2014-04-08, 08:35:05" FileAge="1396938905908" FileType="262144" />
+      <File Name="Generated_Code/Bit1.h" FileDate="2014-06-04, 17:44:31" FileAge="1401896671394" FileType="45637" CompNumb="50" />
+      <File Name="Sources/Events.c" FileDate="2014-09-23, 18:29:46" FileAge="1411489786552" FileType="131328" />
+      <File Name="Generated_Code/Bit1.c" FileDate="2014-06-04, 17:44:31" FileAge="1401896671378" FileType="45637" CompNumb="50" />
+      <File Name="Static_Code/PDD/UART_PDD.h" FileDate="2014-04-08, 08:34:55" FileAge="1396938895893" FileType="262144" />
+      <File Name="Static_Code/PDD/FMC_PDD.h" FileDate="2014-04-08, 08:34:53" FileAge="1396938893908" FileType="262144" />
+      <File Name="Static_Code/PDD/SPI_PDD.h" FileDate="2014-04-08, 08:34:55" FileAge="1396938895737" FileType="262144" />
+      <File Name="Static_Code/Peripherals/PORTC_Init.h" FileDate="2014-04-08, 08:35:06" FileAge="1396938906283" FileType="262144" />
+      <File Name="Static_Code/Peripherals/PORTC_Init.c" FileDate="2014-04-08, 08:35:06" FileAge="1396938906283" FileType="262144" />
+      <File Name="Static_Code/PDD/RNGA_PDD.h" FileDate="2014-04-08, 08:34:55" FileAge="1396938895346" FileType="262144" />
+      <File Name="Documentation/doxygen/RoutingReport.txt" FileDate="2014-06-17, 23:34:52" FileAge="1403040892290" FileType="45637" CompNumb="4" />
+      <File Name="Static_Code/Peripherals/ADC0_Init.h" FileDate="2014-04-08, 08:35:05" FileAge="1396938905080" FileType="262144" />
+      <File Name="Static_Code/PDD/PORT_PDD.h" FileDate="2014-04-08, 08:34:55" FileAge="1396938895252" FileType="262144" />
+      <File Name="Generated_Code/Bits1.h" FileDate="2014-05-12, 11:35:05" FileAge="1399887305969" FileType="45637" CompNumb="21" />
+      <File Name="Static_Code/Peripherals/ADC0_Init.c" FileDate="2014-04-08, 08:35:05" FileAge="1396938905065" FileType="262144" />
+      <File Name="Generated_Code/AD1.h" FileDate="2014-07-28, 13:28:57" FileAge="1406546937723" FileType="45637" CompNumb="92" />
+      <File Name="Generated_Code/Bits1.c" FileDate="2014-05-12, 11:35:05" FileAge="1399887305969" FileType="45637" CompNumb="21" />
+      <File Name="Static_Code/PDD/MCM_PDD.h" FileDate="2014-04-08, 08:34:54" FileAge="1396938894658" FileType="262144" />
+      <File Name="Static_Code/Peripherals/PTE_Init.h" FileDate="2014-04-08, 08:35:06" FileAge="1396938906502" FileType="262144" />
+      <File Name="Generated_Code/AD1.c" FileDate="2014-07-28, 13:28:57" FileAge="1406546937708" FileType="45637" CompNumb="92" />
+      <File Name="Static_Code/PDD/VREF_PDD.h" FileDate="2014-04-08, 08:34:56" FileAge="1396938896080" FileType="262144" />
+      <File Name="Static_Code/Peripherals/AIPS1_Init.h" FileDate="2014-04-08, 08:35:05" FileAge="1396938905174" FileType="262144" />
+      <File Name="Static_Code/Peripherals/PTE_Init.c" FileDate="2014-04-08, 08:35:06" FileAge="1396938906486" FileType="262144" />
+      <File Name="Static_Code/Peripherals/AIPS1_Init.c" FileDate="2014-04-08, 08:35:05" FileAge="1396938905158" FileType="262144" />
+      <File Name="Static_Code/Peripherals/RCM_Init.h" FileDate="2014-04-08, 08:35:06" FileAge="1396938906518" FileType="262144" />
+      <File Name="Generated_Code/Vectors_Config.h" FileDate="2014-07-28, 13:18:25" FileAge="1406546305438" FileType="45637" CompNumb="4" />
+      <File Name="Documentation/doxygen/ASerialLdd1.txt" FileDate="2014-06-11, 15:11:45" FileAge="1402492305840" FileType="45637" CompNumb="9" />
+      <File Name="Static_Code/Peripherals/NVIC_Init.h" FileDate="2014-04-08, 08:35:06" FileAge="1396938906033" FileType="262144" />
+      <File Name="Static_Code/PDD/CAN_PDD.h" FileDate="2014-04-08, 08:34:53" FileAge="1396938893424" FileType="262144" />
+      <File Name="Static_Code/Peripherals/RCM_Init.c" FileDate="2014-04-08, 08:35:06" FileAge="1396938906502" FileType="262144" />
+      <File Name="Static_Code/PDD/SDHC_PDD.h" FileDate="2014-04-08, 08:34:55" FileAge="1396938895565" FileType="262144" />
+      <File Name="Static_Code/Peripherals/NVIC_Init.c" FileDate="2014-04-08, 08:35:06" FileAge="1396938906018" FileType="262144" />
+      <File Name="Static_Code/Peripherals/PMC_Init.h" FileDate="2014-04-08, 08:35:06" FileAge="1396938906143" FileType="262144" />
+      <File Name="Static_Code/Peripherals/FMC_Init.h" FileDate="2014-04-08, 08:35:05" FileAge="1396938905658" FileType="262144" />
+      <File Name="Static_Code/Peripherals/PTB_Init.h" FileDate="2014-04-08, 08:35:06" FileAge="1396938906424" FileType="262144" />
+      <File Name="Static_Code/Peripherals/UART5_Init.h" FileDate="2014-04-08, 08:35:06" FileAge="1396938906924" FileType="262144" />
+      <File Name="Static_Code/Peripherals/PMC_Init.c" FileDate="2014-04-08, 08:35:06" FileAge="1396938906096" FileType="262144" />
+      <File Name="Static_Code/Peripherals/FMC_Init.c" FileDate="2014-04-08, 08:35:05" FileAge="1396938905611" FileType="262144" />
+      <File Name="Static_Code/Peripherals/SystemControl_Init.h" FileDate="2014-04-08, 08:35:06" FileAge="1396938906752" FileType="262144" />
+      <File Name="Static_Code/Peripherals/PTB_Init.c" FileDate="2014-04-08, 08:35:06" FileAge="1396938906408" FileType="262144" />
+      <File Name="Static_Code/Peripherals/SIM_Init.h" FileDate="2014-04-08, 08:35:06" FileAge="1396938906627" FileType="262144" />
+      <File Name="Static_Code/Peripherals/UART5_Init.c" FileDate="2014-04-08, 08:35:06" FileAge="1396938906908" FileType="262144" />
+      <File Name="Generated_Code/Init_Config.h" FileDate="2014-09-23, 21:34:39" FileAge="1411500879209" FileType="45637" CompNumb="4" />
+      <File Name="Generated_Code/CPU_Config.h" FileDate="2014-09-23, 21:34:40" FileAge="1411500880310" FileType="45637" CompNumb="4" />
+      <File Name="Static_Code/Peripherals/SystemControl_Init.c" FileDate="2014-04-08, 08:35:06" FileAge="1396938906736" FileType="262144" />
+      <File Name="Static_Code/PDD/USBDCD_PDD.h" FileDate="2014-04-08, 08:34:55" FileAge="1396938895940" FileType="262144" />
+      <File Name="Static_Code/Peripherals/SIM_Init.c" FileDate="2014-04-08, 08:35:06" FileAge="1396938906611" FileType="262144" />
+      <File Name="Static_Code/PDD/LLWU_PDD.h" FileDate="2014-04-08, 08:34:54" FileAge="1396938894518" FileType="262144" />
+      <File Name="Documentation/doxygen/AdcLdd1.txt" FileDate="2014-07-28, 13:28:57" FileAge="1406546937848" FileType="45637" CompNumb="93" />
+      <File Name="Static_Code/Peripherals/UART2_Init.h" FileDate="2014-04-08, 08:35:06" FileAge="1396938906830" FileType="262144" />
+      <File Name="Static_Code/PDD/SysTick_PDD.h" FileDate="2014-04-08, 08:34:55" FileAge="1396938895752" FileType="262144" />
+      <File Name="Generated_Code/PE_Const.h" FileDate="2014-05-12, 11:35:05" FileAge="1399887305953" FileType="45637" />
+      <File Name="Static_Code/PDD/I2C_PDD.h" FileDate="2014-04-08, 08:34:54" FileAge="1396938894362" FileType="262144" />
+      <File Name="Static_Code/Peripherals/WDOG_Init.h" FileDate="2014-04-08, 08:35:07" FileAge="1396938907033" FileType="262144" />
+      <File Name="Static_Code/Peripherals/FTM3_Init.h" FileDate="2014-04-08, 08:35:05" FileAge="1396938905799" FileType="262144" />
+      <File Name="Static_Code/Peripherals/UART2_Init.c" FileDate="2014-04-08, 08:35:06" FileAge="1396938906814" FileType="262144" />
+      <File Name="Documentation/doxygen/BitIoLdd2.txt" FileDate="2014-06-04, 20:07:45" FileAge="1401905265908" FileType="45637" CompNumb="53" />
+      <File Name="Static_Code/Peripherals/SPI2_Init.h" FileDate="2014-04-08, 08:35:06" FileAge="1396938906705" FileType="262144" />
+      <File Name="Static_Code/Peripherals/WDOG_Init.c" FileDate="2014-04-08, 08:35:07" FileAge="1396938907033" FileType="262144" />
+      <File Name="Static_Code/PDD/SCB_PDD.h" FileDate="2014-04-08, 08:34:55" FileAge="1396938895533" FileType="262144" />
+      <File Name="Static_Code/Peripherals/FTM3_Init.c" FileDate="2014-04-08, 08:35:05" FileAge="1396938905768" FileType="262144" />
+      <File Name="Static_Code/Peripherals/SPI2_Init.c" FileDate="2014-04-08, 08:35:06" FileAge="1396938906705" FileType="262144" />
+      <File Name="Static_Code/PDD/PMC_PDD.h" FileDate="2014-04-08, 08:34:55" FileAge="1396938895127" FileType="262144" />
+      <File Name="Static_Code/PDD/PDD_Types.h" FileDate="2014-04-08, 08:34:55" FileAge="1396938895033" FileType="262144" />
+      <File Name="Static_Code/Peripherals/DAC1_Init.h" FileDate="2014-04-08, 08:35:05" FileAge="1396938905502" FileType="262144" />
+      <File Name="Static_Code/Peripherals/MPU_Init.h" FileDate="2014-04-08, 08:35:05" FileAge="1396938905986" FileType="262144" />
+      <File Name="Documentation/doxygen/TimerIntLdd1.txt" FileDate="2014-06-05, 18:46:32" FileAge="1401986792096" FileType="45637" CompNumb="13" />
+      <File Name="Static_Code/Peripherals/DAC1_Init.c" FileDate="2014-04-08, 08:35:05" FileAge="1396938905486" FileType="262144" />
+      <File Name="Static_Code/PDD/SMC_PDD.h" FileDate="2014-04-08, 08:34:55" FileAge="1396938895690" FileType="262144" />
+      <File Name="Generated_Code/RTC1.h" FileDate="2014-06-26, 17:40:37" FileAge="1403797237089" FileType="45637" CompNumb="81" />
+      <File Name="Static_Code/Peripherals/I2C2_Init.h" FileDate="2014-04-08, 08:35:05" FileAge="1396938905877" FileType="262144" />
+      <File Name="Static_Code/Peripherals/MPU_Init.c" FileDate="2014-04-08, 08:35:05" FileAge="1396938905986" FileType="262144" />
+      <File Name="Static_Code/Peripherals/FTM0_Init.h" FileDate="2014-04-08, 08:35:05" FileAge="1396938905690" FileType="262144" />
+      <File Name="Generated_Code/RTC1.c" FileDate="2014-06-26, 17:40:37" FileAge="1403797237152" FileType="45637" CompNumb="81" />
+      <File Name="Static_Code/Peripherals/I2C2_Init.c" FileDate="2014-04-08, 08:35:05" FileAge="1396938905877" FileType="262144" />
+      <File Name="Generated_Code/TI2.h" FileDate="2014-06-30, 09:58:02" FileAge="1404115082605" FileType="45637" CompNumb="16" />
+      <File Name="Static_Code/Peripherals/FTM0_Init.c" FileDate="2014-04-08, 08:35:05" FileAge="1396938905690" FileType="262144" />
+      <File Name="Generated_Code/TimerIntLdd2.h" FileDate="2014-06-30, 09:58:02" FileAge="1404115082683" FileType="45637" CompNumb="17" />
+      <File Name="Static_Code/Peripherals/FB_Init.h" FileDate="2014-04-08, 08:35:05" FileAge="1396938905611" FileType="262144" />
+      <File Name="Static_Code/Peripherals/CMP0_Init.h" FileDate="2014-04-08, 08:35:05" FileAge="1396938905299" FileType="262144" />
+      <File Name="Generated_Code/TI2.c" FileDate="2014-06-30, 09:58:02" FileAge="1404115082558" FileType="45637" CompNumb="16" />
+      <File Name="Generated_Code/TimerIntLdd2.c" FileDate="2014-06-30, 09:58:02" FileAge="1404115082667" FileType="45637" CompNumb="17" />
+      <File Name="Static_Code/Peripherals/FB_Init.c" FileDate="2014-04-08, 08:35:05" FileAge="1396938905596" FileType="262144" />
+      <File Name="Static_Code/Peripherals/CMP0_Init.c" FileDate="2014-04-08, 08:35:05" FileAge="1396938905283" FileType="262144" />
+      <File Name="Static_Code/PDD/LPTMR_PDD.h" FileDate="2014-04-08, 08:34:54" FileAge="1396938894565" FileType="262144" />
+      <File Name="Generated_Code/AS1.h" FileDate="2014-06-15, 22:36:44" FileAge="1402864604833" FileType="45637" CompNumb="8" />
+      <File Name="Generated_Code/PE_Types.h" FileDate="2014-07-28, 13:18:25" FileAge="1406546305234" FileType="45637" />
+      <File Name="Static_Code/Peripherals/ADC1_Init.h" FileDate="2014-04-08, 08:35:05" FileAge="1396938905111" FileType="262144" />
+      <File Name="Generated_Code/AS1.c" FileDate="2014-06-18, 17:47:05" FileAge="1403106425407" FileType="45637" CompNumb="8" />
+      <File Name="Static_Code/Peripherals/ADC1_Init.c" FileDate="2014-04-08, 08:35:05" FileAge="1396938905096" FileType="262144" />
+      <File Name="Generated_Code/IO_Map.h" FileDate="2014-05-12, 11:35:05" FileAge="1399887305953" FileType="45637" />
+      <File Name="Generated_Code/ASerialLdd1.h" FileDate="2014-06-11, 15:11:45" FileAge="1402492305558" FileType="45637" CompNumb="9" />
+      <File Name="Generated_Code/ASerialLdd1.c" FileDate="2014-06-26, 17:03:41" FileAge="1403795021434" FileType="45637" CompNumb="9" />
+      <File Name="Static_Code/Peripherals/EWM_Init.h" FileDate="2014-04-08, 08:35:05" FileAge="1396938905580" FileType="262144" />
+      <File Name="Project_Settings/Startup_Code/startup.c" FileDate="2014-05-10, 12:48:05" FileAge="1399718885801" FileType="16384" CompNumb="4" />
+      <File Name="Generated_Code/BitIoLdd1.h" FileDate="2014-06-04, 17:44:31" FileAge="1401896671409" FileType="45637" CompNumb="51" />
+      <File Name="Static_Code/Peripherals/DMA_Init.h" FileDate="2014-04-08, 08:35:05" FileAge="1396938905565" FileType="262144" />
+      <File Name="Static_Code/Peripherals/EWM_Init.c" FileDate="2014-04-08, 08:35:05" FileAge="1396938905580" FileType="262144" />
+      <File Name="Generated_Code/BitsIoLdd2.h" FileDate="2014-05-17, 14:28:57" FileAge="1400329737507" FileType="45637" CompNumb="26" />
+      <File Name="Generated_Code/BitIoLdd1.c" FileDate="2014-06-04, 17:44:31" FileAge="1401896671409" FileType="45637" CompNumb="51" />
+      <File Name="Static_Code/Peripherals/PORTD_Init.h" FileDate="2014-04-08, 08:35:06" FileAge="1396938906315" FileType="262144" />
+      <File Name="Generated_Code/ExtIntLdd1.h" FileDate="2014-06-04, 20:07:44" FileAge="1401905264877" FileType="45637" CompNumb="20" />
+      <File Name="Generated_Code/TU1.h" FileDate="2014-06-05, 18:46:31" FileAge="1401986791393" FileType="45637" CompNumb="14" />
+      <File Name="Static_Code/Peripherals/DMA_Init.c" FileDate="2014-04-08, 08:35:05" FileAge="1396938905549" FileType="262144" />
+      <File Name="Generated_Code/BitsIoLdd2.c" FileDate="2014-05-17, 14:28:57" FileAge="1400329737538" FileType="45637" CompNumb="26" />
+      <File Name="Static_Code/PDD/FTFE_PDD.h" FileDate="2014-04-08, 08:34:53" FileAge="1396938893971" FileType="262144" />
+      <File Name="Static_Code/PDD/DMA_PDD.h" FileDate="2014-04-08, 08:34:53" FileAge="1396938893768" FileType="262144" />
+      <File Name="Static_Code/Peripherals/PORTD_Init.c" FileDate="2014-04-08, 08:35:06" FileAge="1396938906315" FileType="262144" />
+      <File Name="Generated_Code/ExtIntLdd1.c" FileDate="2014-06-04, 20:07:45" FileAge="1401905265236" FileType="45637" CompNumb="20" />
+      <File Name="Generated_Code/TU1.c" FileDate="2014-06-05, 18:46:31" FileAge="1401986791533" FileType="45637" CompNumb="14" />
+      <File Name="Generated_Code/EInt2.h" FileDate="2014-06-08, 10:08:31" FileAge="1402214911390" FileType="45637" CompNumb="36" />
+      <File Name="Static_Code/Peripherals/SDHC_Init.h" FileDate="2014-04-08, 08:35:06" FileAge="1396938906596" FileType="262144" />
+      <File Name="Static_Code/Peripherals/PTC_Init.h" FileDate="2014-04-08, 08:35:06" FileAge="1396938906439" FileType="262144" />
+      <File Name="Documentation/doxygen/WunderBar_WiFi.txt" FileDate="2014-07-28, 13:18:25" FileAge="1406546305547" FileType="45637" CompNumb="4" />
+      <File Name="Generated_Code/EInt2.c" FileDate="2014-06-08, 10:08:31" FileAge="1402214911437" FileType="45637" CompNumb="36" />
+      <File Name="Static_Code/Peripherals/SDHC_Init.c" FileDate="2014-04-08, 08:35:06" FileAge="1396938906596" FileType="262144" />
+      <File Name="Static_Code/Peripherals/PTC_Init.c" FileDate="2014-04-08, 08:35:06" FileAge="1396938906439" FileType="262144" />
+      <File Name="Static_Code/System/Vectors.c" FileDate="2014-04-08, 08:35:07" FileAge="1396938907283" FileType="262144" />
+      <File Name="Static_Code/Peripherals/PORTA_Init.h" FileDate="2014-04-08, 08:35:06" FileAge="1396938906205" FileType="262144" />
+      <File Name="Static_Code/Peripherals/LPTMR0_Init.h" FileDate="2014-04-08, 08:35:05" FileAge="1396938905955" FileType="262144" />
+      <File Name="Static_Code/Peripherals/PORTA_Init.c" FileDate="2014-04-08, 08:35:06" FileAge="1396938906190" FileType="262144" />
+      <File Name="Static_Code/Peripherals/LPTMR0_Init.c" FileDate="2014-04-08, 08:35:05" FileAge="1396938905940" FileType="262144" />
+      <File Name="Static_Code/Peripherals/CRC_Init.h" FileDate="2014-04-08, 08:35:05" FileAge="1396938905440" FileType="262144" />
+      <File Name="Documentation/WunderBar_WiFi_Settings.xml" FileDate="2014-07-28, 13:28:58" FileAge="1406546938020" FileType="3072" />
+      <File Name="Documentation/doxygen/BitsIoLdd2.txt" FileDate="2014-05-17, 14:28:57" FileAge="1400329737585" FileType="45637" CompNumb="26" />
+      <File Name="Static_Code/Peripherals/CRC_Init.c" FileDate="2014-04-08, 08:35:05" FileAge="1396938905408" FileType="262144" />
+      <File Name="Static_Code/PDD/EWM_PDD.h" FileDate="2014-04-08, 08:34:53" FileAge="1396938893877" FileType="262144" />
+      <File Name="Generated_Code/Cpu.h" FileDate="2014-06-05, 20:51:58" FileAge="1401994318169" FileType="45637" CompNumb="4" />
+      <File Name="Generated_Code/Bit2.h" FileDate="2014-06-04, 17:59:53" FileAge="1401897593060" FileType="45637" CompNumb="52" />
+      <File Name="Static_Code/Peripherals/UART3_Init.h" FileDate="2014-04-08, 08:35:06" FileAge="1396938906877" FileType="262144" />
+      <File Name="Static_Code/PDD/SAI_PDD.h" FileDate="2014-04-08, 08:34:55" FileAge="1396938895502" FileType="262144" />
+      <File Name="Static_Code/Peripherals/SMC_Init.h" FileDate="2014-04-08, 08:35:06" FileAge="1396938906643" FileType="262144" />
+      <File Name="Generated_Code/Cpu.c" FileDate="2014-07-28, 13:18:25" FileAge="1406546305344" FileType="45637" CompNumb="4" />
+      <File Name="Generated_Code/Bit2.c" FileDate="2014-06-04, 17:59:53" FileAge="1401897593060" FileType="45637" CompNumb="52" />
+      <File Name="Documentation/doxygen/BitIoLdd1.txt" FileDate="2014-06-04, 17:44:31" FileAge="1401896671394" FileType="45637" CompNumb="51" />
+      <File Name="Static_Code/Peripherals/UART3_Init.c" FileDate="2014-04-08, 08:35:06" FileAge="1396938906861" FileType="262144" />
+      <File Name="Generated_Code/Pins1.h" FileDate="2014-05-12, 11:35:06" FileAge="1399887306047" FileType="45637" CompNumb="5" />
+      <File Name="Static_Code/Peripherals/SMC_Init.c" FileDate="2014-04-08, 08:35:06" FileAge="1396938906643" FileType="262144" />
+      <File Name="Static_Code/PDD/CRC_PDD.h" FileDate="2014-04-08, 08:34:53" FileAge="1396938893612" FileType="262144" />
+      <File Name="Static_Code/System/PDD_Includes.h" FileDate="2014-04-08, 08:35:07" FileAge="1396938907236" FileType="262144" />
+      <File Name="Generated_Code/Pins1.c" FileDate="2014-05-12, 11:35:06" FileAge="1399887306047" FileType="45637" CompNumb="5" />
+      <File Name="Static_Code/Peripherals/CAN0_Init.h" FileDate="2014-04-08, 08:35:05" FileAge="1396938905268" FileType="262144" />
+      <File Name="Static_Code/Peripherals/CAN0_Init.c" FileDate="2014-04-08, 08:35:05" FileAge="1396938905252" FileType="262144" />
+      <File Name="Static_Code/PDD/WDOG_PDD.h" FileDate="2014-04-08, 08:34:56" FileAge="1396938896190" FileType="262144" />
+      <File Name="Generated_Code/Bits2.h" FileDate="2014-05-17, 14:28:57" FileAge="1400329737413" FileType="45637" CompNumb="25" />
+      <File Name="Static_Code/Peripherals/FTM1_Init.h" FileDate="2014-04-08, 08:35:05" FileAge="1396938905736" FileType="262144" />
+      <File Name="Generated_Code/Bits2.c" FileDate="2014-05-17, 14:28:57" FileAge="1400329737366" FileType="45637" CompNumb="25" />
+      <File Name="Static_Code/Peripherals/SPI0_Init.h" FileDate="2014-04-08, 08:35:06" FileAge="1396938906674" FileType="262144" />
+      <File Name="Static_Code/Peripherals/FTM1_Init.c" FileDate="2014-04-08, 08:35:05" FileAge="1396938905705" FileType="262144" />
+      <File Name="Documentation/WunderBar_WiFi.txt" FileDate="2014-07-28, 13:18:33" FileAge="1406546313094" FileType="3072" />
+      <File Name="Static_Code/PDD/PDB_PDD.h" FileDate="2014-04-08, 08:34:55" FileAge="1396938895033" FileType="262144" />
+      <File Name="Static_Code/Peripherals/SPI0_Init.c" FileDate="2014-04-08, 08:35:06" FileAge="1396938906658" FileType="262144" />
+      <File Name="Static_Code/Peripherals/RTC_Init.h" FileDate="2014-04-08, 08:35:06" FileAge="1396938906564" FileType="262144" />
+      <File Name="Static_Code/PDD/CMT_PDD.h" FileDate="2014-04-08, 08:34:53" FileAge="1396938893533" FileType="262144" />
+      <File Name="Static_Code/Peripherals/RTC_Init.c" FileDate="2014-04-08, 08:35:06" FileAge="1396938906549" FileType="262144" />
+      <File Name="Documentation/doxygen/RTC1.txt" FileDate="2014-06-26, 17:40:37" FileAge="1403797237183" FileType="45637" CompNumb="81" />
+      <File Name="Documentation/doxygen/TU2.txt" FileDate="2014-06-30, 09:58:02" FileAge="1404115082949" FileType="45637" CompNumb="18" />
+      <File Name="Static_Code/Peripherals/UART0_Init.h" FileDate="2014-04-08, 08:35:06" FileAge="1396938906783" FileType="262144" />
+      <File Name="Static_Code/PDD/PIT_PDD.h" FileDate="2014-04-08, 08:34:55" FileAge="1396938895080" FileType="262144" />
+      <File Name="Static_Code/Peripherals/UART0_Init.c" FileDate="2014-04-08, 08:35:06" FileAge="1396938906783" FileType="262144" />
+      <File Name="Static_Code/Peripherals/MCM_Init.h" FileDate="2014-04-08, 08:35:05" FileAge="1396938905971" FileType="262144" />
+      <File Name="Documentation/doxygen/pex.doxyfile" FileDate="2014-05-10, 12:48:07" FileAge="1399718887549" FileType="45637" CompNumb="4" />
+      <File Name="Static_Code/Peripherals/CMP1_Init.h" FileDate="2014-04-08, 08:35:05" FileAge="1396938905346" FileType="262144" />
+      <File Name="Static_Code/Peripherals/MCM_Init.c" FileDate="2014-04-08, 08:35:05" FileAge="1396938905971" FileType="262144" />
+      <File Name="Documentation/doxygen/ExtIntLdd2.txt" FileDate="2014-06-08, 10:08:31" FileAge="1402214911343" FileType="45637" CompNumb="37" />
+      <File Name="Static_Code/PDD/ADC_PDD.h" FileDate="2014-04-08, 08:34:53" FileAge="1396938893377" FileType="262144" />
+      <File Name="Static_Code/Peripherals/PORTE_Init.h" FileDate="2014-04-08, 08:35:06" FileAge="1396938906377" FileType="262144" />
+      <File Name="Static_Code/Peripherals/CMP1_Init.c" FileDate="2014-04-08, 08:35:05" FileAge="1396938905330" FileType="262144" />
+      <File Name="Static_Code/PDD/RCM_PDD.h" FileDate="2014-04-08, 08:34:55" FileAge="1396938895315" FileType="262144" />
+      <File Name="Static_Code/Peripherals/PORTE_Init.c" FileDate="2014-04-08, 08:35:06" FileAge="1396938906346" FileType="262144" />
+      <File Name="Static_Code/System/Peripherals_Init.h" FileDate="2014-04-08, 08:35:07" FileAge="1396938907268" FileType="262144" />
+      <File Name="Static_Code/Peripherals/I2C0_Init.h" FileDate="2014-04-08, 08:35:05" FileAge="1396938905830" FileType="262144" />
+      <File Name="Static_Code/System/Peripherals_Init.c" FileDate="2014-04-08, 08:35:07" FileAge="1396938907252" FileType="262144" />
+      <File Name="Static_Code/Peripherals/I2C0_Init.c" FileDate="2014-04-08, 08:35:05" FileAge="1396938905830" FileType="262144" />
+      <File Name="Static_Code/Peripherals/PTD_Init.h" FileDate="2014-04-08, 08:35:06" FileAge="1396938906455" FileType="262144" />
+      <File Name="ProjectInfo.xml" FileDate="2014-09-23, 21:34:48" FileAge="1411500888944" FileType="45637" />
+      <File Name="Static_Code/PDD/USB_PDD.h" FileDate="2014-04-08, 08:34:56" FileAge="1396938896049" FileType="262144" />
+      <File Name="Static_Code/Peripherals/PTD_Init.c" FileDate="2014-04-08, 08:35:06" FileAge="1396938906455" FileType="262144" />
+      <File Name="Static_Code/IO_Map/MK24F12.h" FileDate="2014-04-08, 08:34:47" FileAge="1396938887580" FileType="262144" />
+      <File Name="Static_Code/Peripherals/USB0_Init.h" FileDate="2014-04-08, 08:35:06" FileAge="1396938906939" FileType="262144" />
+      <File Name="Sources/main.c" FileDate="2014-09-23, 14:02:03" FileAge="1411473723046" FileType="128" />
+      <File Name="Static_Code/Peripherals/PORTB_Init.h" FileDate="2014-04-08, 08:35:06" FileAge="1396938906236" FileType="262144" />
+      <File Name="Static_Code/PDD/CMP_PDD.h" FileDate="2014-04-08, 08:34:53" FileAge="1396938893518" FileType="262144" />
+      <File Name="Generated_Code/AdcLdd1.h" FileDate="2014-07-28, 13:28:57" FileAge="1406546937755" FileType="45637" CompNumb="93" />
+      <File Name="Static_Code/Peripherals/USB0_Init.c" FileDate="2014-04-08, 08:35:06" FileAge="1396938906939" FileType="262144" />
+      <File Name="Static_Code/Peripherals/PORTB_Init.c" FileDate="2014-04-08, 08:35:06" FileAge="1396938906236" FileType="262144" />
+      <File Name="Documentation/doxygen/BitsIoLdd1.txt" FileDate="2014-05-12, 09:45:45" FileAge="1399880745298" FileType="45637" CompNumb="22" />
+      <File Name="Static_Code/PDD/DAC_PDD.h" FileDate="2014-04-08, 08:34:53" FileAge="1396938893658" FileType="262144" />
+      <File Name="Generated_Code/AdcLdd1.c" FileDate="2014-07-29, 15:44:46" FileAge="1406641486782" FileType="45637" CompNumb="93" />
+      <File Name="Generated_Code/PE_LDD.h" FileDate="2014-07-28, 13:18:25" FileAge="1406546305406" FileType="45637" CompNumb="4" />
+      <File Name="Generated_Code/PE_LDD.c" FileDate="2014-07-28, 13:18:25" FileAge="1406546305406" FileType="45637" CompNumb="4" />
+      <File Name="Static_Code/PDD/DMAMUX_PDD.h" FileDate="2014-04-08, 08:34:53" FileAge="1396938893674" FileType="262144" />
+      <File Name="Project_Settings/Linker_Files/ProcessorExpert.ld" FileDate="2014-06-27, 16:54:47" FileAge="1403880887557" FileType="8" CompNumb="4" />
+      <File Name="Generated_Code/TI1.h" FileDate="2014-06-05, 18:46:32" FileAge="1401986792205" FileType="45637" CompNumb="12" />
+      <File Name="Static_Code/Peripherals/AIPS0_Init.h" FileDate="2014-04-08, 08:35:05" FileAge="1396938905127" FileType="262144" />
+      <File Name="Generated_Code/TimerIntLdd1.h" FileDate="2014-06-05, 18:46:31" FileAge="1401986791846" FileType="45637" CompNumb="13" />
+      <File Name="Generated_Code/TI1.c" FileDate="2014-06-05, 18:46:32" FileAge="1401986792314" FileType="45637" CompNumb="12" />
+      <File Name="Static_Code/Peripherals/AIPS0_Init.c" FileDate="2014-04-08, 08:35:05" FileAge="1396938905111" FileType="262144" />
+      <File Name="Generated_Code/TimerIntLdd1.c" FileDate="2014-06-05, 18:46:31" FileAge="1401986791955" FileType="45637" CompNumb="13" />
+      <File Name="Static_Code/PDD/SIM_PDD.h" FileDate="2014-04-08, 08:34:55" FileAge="1396938895643" FileType="262144" />
+      <File Name="Documentation/doxygen/SM1.txt" FileDate="2014-06-12, 22:26:26" FileAge="1402604786852" FileType="45637" CompNumb="65" />
+      <File Name="Static_Code/Peripherals/USBDCD_Init.h" FileDate="2014-04-08, 08:35:06" FileAge="1396938906986" FileType="262144" />
+      <File Name="Static_Code/Peripherals/USBDCD_Init.c" FileDate="2014-04-08, 08:35:06" FileAge="1396938906955" FileType="262144" />
+      <File Name="Static_Code/Peripherals/FTM2_Init.h" FileDate="2014-04-08, 08:35:05" FileAge="1396938905752" FileType="262144" />
+      <File Name="Static_Code/Peripherals/SPI1_Init.h" FileDate="2014-04-08, 08:35:06" FileAge="1396938906689" FileType="262144" />
+      <File Name="Static_Code/Peripherals/PTA_Init.h" FileDate="2014-04-08, 08:35:06" FileAge="1396938906393" FileType="262144" />
+      <File Name="Static_Code/Peripherals/FTM2_Init.c" FileDate="2014-04-08, 08:35:05" FileAge="1396938905736" FileType="262144" />
+      <File Name="Static_Code/Peripherals/UART4_Init.h" FileDate="2014-04-08, 08:35:06" FileAge="1396938906908" FileType="262144" />
+      <File Name="Generated_Code/BitIoLdd2.h" FileDate="2014-06-04, 17:59:53" FileAge="1401897593076" FileType="45637" CompNumb="53" />
+      <File Name="Static_Code/Peripherals/SPI1_Init.c" FileDate="2014-04-08, 08:35:06" FileAge="1396938906674" FileType="262144" />
+      <File Name="Static_Code/Peripherals/PTA_Init.c" FileDate="2014-04-08, 08:35:06" FileAge="1396938906393" FileType="262144" />
+      <File Name="Static_Code/Peripherals/UART4_Init.c" FileDate="2014-04-08, 08:35:06" FileAge="1396938906893" FileType="262144" />
+      <File Name="Generated_Code/BitIoLdd2.c" FileDate="2014-06-04, 17:59:53" FileAge="1401897593076" FileType="45637" CompNumb="53" />
+      <File Name="Static_Code/Peripherals/RNG_Init.h" FileDate="2014-04-08, 08:35:06" FileAge="1396938906533" FileType="262144" />
+      <File Name="Static_Code/PDD/FTM_PDD.h" FileDate="2014-04-08, 08:34:54" FileAge="1396938894299" FileType="262144" />
+      <File Name="Generated_Code/ExtIntLdd2.h" FileDate="2014-06-08, 10:08:31" FileAge="1402214911234" FileType="45637" CompNumb="37" />
+    </GeneratedByPE>
+  </GeneratedFilesList>
+  <CodeGenReference>230</CodeGenReference>
+</CodeGenerationInfo>

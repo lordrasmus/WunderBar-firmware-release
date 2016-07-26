@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?>
+
+<cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+	<storageModule moduleId="org.eclipse.cdt.core.settings">
+		<cconfiguration id="com.freescale.arm.cdt.toolchain.config.arm.release.1461122949">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="com.freescale.arm.cdt.toolchain.config.arm.release.1461122949" moduleId="org.eclipse.cdt.core.settings" name="RAM">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.managedbuilder.core.ManagedBuildManager" point="org.eclipse.cdt.core.ScannerInfoProvider"/>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.freescale.core.ide.cdt.errorParsers.LltErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.freescale.core.ide.cdt.errorParsers.AsmErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.freescale.core.ide.cdt.errorParsers.IcodeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.freescale.core.ide.cdt.errorParsers.CobjErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.freescale.core.ide.cdt.errorParsers.MwErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.freescale.core.ide.cdt.errorParsers.MPWErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.freescale.core.ide.cdt.errorParsers.MwfeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.freescale.core.ide.cdt.errorParsers.LnkErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactExtension="afx" artifactName="Kinetis_MK24FN1M0VDC12_msd_bootPE" buildProperties="" cleanCommand="&quot;${system:ECLIPSE_HOME}/../gnu/bin/rm&quot; -f" description="" errorParsers="org.eclipse.cdt.core.GmakeErrorParser;com.freescale.core.ide.cdt.errorParsers.LnkErrorParser;com.freescale.core.ide.cdt.errorParsers.AsmErrorParser;com.freescale.core.ide.cdt.errorParsers.CobjErrorParser;com.freescale.core.ide.cdt.errorParsers.IcodeErrorParser;com.freescale.core.ide.cdt.errorParsers.LltErrorParser;com.freescale.core.ide.cdt.errorParsers.MwfeErrorParser;com.freescale.core.ide.cdt.errorParsers.MwErrorParser;com.freescale.core.ide.cdt.errorParsers.MPWErrorParser;" id="com.freescale.arm.cdt.toolchain.config.arm.release.1461122949" isPrebuildInvalidatingBuild="false" name="RAM" parent="com.freescale.arm.cdt.toolchain.config.arm.release">
+					<folderInfo id="com.freescale.arm.cdt.toolchain.config.arm.release.1461122949." name="/" resourcePath="">
+						<toolChain errorParsers="" id="com.freescale.arm.cdt.toolchain.arm.release.1509743702" name="ARM Toolchain" superClass="com.freescale.arm.cdt.toolchain.arm.release">
+							<option id="com.freescale.arm.cdt.toolchain.sharedoption.fp.143697114" name="Floating Point" superClass="com.freescale.arm.cdt.toolchain.sharedoption.fp" value="com.freescale.arm.cdt.toolchain.sharedoption.fp.vfpv4" valueType="enumerated"/>
+							<targetPlatform id="com.freescale.arm.cdt.toolchain.targetplatform.1404237531" isAbstract="false" name="ARM Target Platform" superClass="com.freescale.arm.cdt.toolchain.targetplatform"/>
+							<builder buildPath="${ProjDirPath}/RAM" errorParsers="org.eclipse.cdt.core.GmakeErrorParser;com.freescale.core.ide.cdt.errorParsers.LltErrorParser;com.freescale.core.ide.cdt.errorParsers.AsmErrorParser;com.freescale.core.ide.cdt.errorParsers.IcodeErrorParser;com.freescale.core.ide.cdt.errorParsers.CobjErrorParser;com.freescale.core.ide.cdt.errorParsers.MwErrorParser;com.freescale.core.ide.cdt.errorParsers.MPWErrorParser;com.freescale.core.ide.cdt.errorParsers.MwfeErrorParser;com.freescale.core.ide.cdt.errorParsers.LnkErrorParser" id="com.freescale.arm.cdt.toolchain.builder.1680024363" keepEnvironmentInBuildfile="false" name="GNU Make Builder" parallelBuildWorkspaceOn="true" superClass="com.freescale.arm.cdt.toolchain.builder"/>
+							<tool errorParsers="" id="com.freescale.arm.cdt.toolchain.linker.2123784532" name="ARM Linker" superClass="com.freescale.arm.cdt.toolchain.linker">
+								<option id="com.freescale.arm.cdt.toolchain.linker.libraries.libSearch.1648074401" name="Library Search Paths" superClass="com.freescale.arm.cdt.toolchain.linker.libraries.libSearch" valueType="stringList">
+									<listOptionValue builtIn="false" value="&quot;${MCUToolsBaseDir}/ARM_EABI_Support/ewl/lib&quot;"/>
+								</option>
+								<option id="com.freescale.arm.cdt.toolchain.linker.commandFile.2001680683" name="Linker Command File" superClass="com.freescale.arm.cdt.toolchain.linker.commandFile" value="${ProjDirPath}/Project_Settings/Linker_Files/ProcessorExpert.lcf" valueType="string"/>
+								<inputType id="com.freescale.arm.cdt.toolchain.linker.input.1598129146" name="ARM Linker Input" superClass="com.freescale.arm.cdt.toolchain.linker.input">
+									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
+									<additionalInput kind="additionaldependency" paths="$(LCF_SRCS)"/>
+								</inputType>
+							</tool>
+							<tool errorParsers="" id="com.freescale.arm.cdt.toolchain.compiler.1895217158" name="ARM Compiler" superClass="com.freescale.arm.cdt.toolchain.compiler">
+								<option id="com.freescale.arm.cdt.toolchain.armCpp.input.userIncludes.856342851" name="Include User Search Paths (-i)" superClass="com.freescale.arm.cdt.toolchain.armCpp.input.userIncludes" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Project_Headers&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${MCUToolsBaseDir}/ARM_EABI_Support/ewl/EWL_C/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Generated_Code&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Sources&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProcessorExpertPath}/lib/Kinetis/pdd2/MK24FN1M0LQ12/peripherals&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProcessorExpertPath}/lib/Kinetis/pdd2/MK24FN1M0LQ12/system&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProcessorExpertPath}/lib/Kinetis/pdd/inc&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProcessorExpertPath}/lib/Kinetis/iofiles&quot;"/>
+								</option>
+								<option id="com.freescale.arm.cdt.toolchain.armCpp.language.cpp.exceptions.1410654904" name="Enable Exceptions" superClass="com.freescale.arm.cdt.toolchain.armCpp.language.cpp.exceptions" value="false" valueType="boolean"/>
+								<inputType id="com.freescale.arm.cdt.toolchain.armCpp.cSource.1475216390" name="ARM C/C++ Compiler" superClass="com.freescale.arm.cdt.toolchain.armCpp.cSource"/>
+							</tool>
+							<tool errorParsers="" id="com.freescale.arm.cdt.toolchain.assembler.1220611017" name="ARM Assembler" superClass="com.freescale.arm.cdt.toolchain.assembler">
+								<option id="com.freescale.arm.cdt.toolchain.armAsm.include.1229075802" name="Include User Search Paths (-i)" superClass="com.freescale.arm.cdt.toolchain.armAsm.include" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Generated_Code&quot;"/>
+								</option>
+								<inputType id="com.freescale.arm.cdt.toolchain.armAsm.input.1905651722" name="ARM Assembler Input" superClass="com.freescale.arm.cdt.toolchain.armAsm.input"/>
+							</tool>
+							<tool errorParsers="" id="com.freescale.arm.cdt.toolchain.preproc.1390007858" name="ARM Preprocessor" superClass="com.freescale.arm.cdt.toolchain.preproc"/>
+							<tool errorParsers="" id="com.freescale.arm.cdt.toolchain.disassembler.301712595" name="ARM Disassembler" superClass="com.freescale.arm.cdt.toolchain.disassembler"/>
+						</toolChain>
+					</folderInfo>
+					<fileInfo id="com.freescale.arm.cdt.toolchain.config.arm.release.1461122949..settings/com.freescale.processorexpert.core.prefs" name="com.freescale.processorexpert.core.prefs" rcbsApplicability="disable" resourcePath=".settings/com.freescale.processorexpert.core.prefs" toolsToInvoke=""/>
+					<sourceEntries>
+						<entry excluding=".settings/com.freescale.processorexpert.core.prefs" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+					</sourceEntries>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+		<cconfiguration id="com.freescale.arm.cdt.toolchain.config.arm.release.512346547">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="com.freescale.arm.cdt.toolchain.config.arm.release.512346547" moduleId="org.eclipse.cdt.core.settings" name="FLASH">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.managedbuilder.core.ManagedBuildManager" point="org.eclipse.cdt.core.ScannerInfoProvider"/>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.freescale.core.ide.cdt.errorParsers.LltErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.freescale.core.ide.cdt.errorParsers.AsmErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.freescale.core.ide.cdt.errorParsers.IcodeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.freescale.core.ide.cdt.errorParsers.CobjErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.freescale.core.ide.cdt.errorParsers.MwErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.freescale.core.ide.cdt.errorParsers.MPWErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.freescale.core.ide.cdt.errorParsers.MwfeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.freescale.core.ide.cdt.errorParsers.LnkErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactExtension="afx" artifactName="Kinetis_MK24FN1M0VDC12_msd_bootPE" buildProperties="" cleanCommand="&quot;${system:ECLIPSE_HOME}/../gnu/bin/rm&quot; -f" description="" errorParsers="org.eclipse.cdt.core.GmakeErrorParser;com.freescale.core.ide.cdt.errorParsers.LnkErrorParser;com.freescale.core.ide.cdt.errorParsers.AsmErrorParser;com.freescale.core.ide.cdt.errorParsers.CobjErrorParser;com.freescale.core.ide.cdt.errorParsers.IcodeErrorParser;com.freescale.core.ide.cdt.errorParsers.LltErrorParser;com.freescale.core.ide.cdt.errorParsers.MwfeErrorParser;com.freescale.core.ide.cdt.errorParsers.MwErrorParser;com.freescale.core.ide.cdt.errorParsers.MPWErrorParser;" id="com.freescale.arm.cdt.toolchain.config.arm.release.512346547" isPrebuildInvalidatingBuild="false" isVersionInfoProjSpecific="false" name="FLASH" parent="com.freescale.arm.cdt.toolchain.config.arm.release">
+					<folderInfo id="com.freescale.arm.cdt.toolchain.config.arm.release.512346547." name="/" resourcePath="">
+						<toolChain errorParsers="" id="com.freescale.arm.cdt.toolchain.arm.release.228483421" name="ARM Toolchain" superClass="com.freescale.arm.cdt.toolchain.arm.release">
+							<option id="com.freescale.arm.cdt.toolchain.sharedoption.fp.1360783999" name="Floating Point" superClass="com.freescale.arm.cdt.toolchain.sharedoption.fp" value="com.freescale.arm.cdt.toolchain.sharedoption.fp.vfpv4" valueType="enumerated"/>
+							<targetPlatform id="com.freescale.arm.cdt.toolchain.targetplatform.477664703" isAbstract="false" name="ARM Target Platform" superClass="com.freescale.arm.cdt.toolchain.targetplatform"/>
+							<builder buildPath="${ProjDirPath}/FLASH" errorParsers="org.eclipse.cdt.core.GmakeErrorParser;com.freescale.core.ide.cdt.errorParsers.LltErrorParser;com.freescale.core.ide.cdt.errorParsers.AsmErrorParser;com.freescale.core.ide.cdt.errorParsers.IcodeErrorParser;com.freescale.core.ide.cdt.errorParsers.CobjErrorParser;com.freescale.core.ide.cdt.errorParsers.MwErrorParser;com.freescale.core.ide.cdt.errorParsers.MPWErrorParser;com.freescale.core.ide.cdt.errorParsers.MwfeErrorParser;com.freescale.core.ide.cdt.errorParsers.LnkErrorParser" id="com.freescale.arm.cdt.toolchain.builder.1961579228" keepEnvironmentInBuildfile="false" name="GNU Make Builder" parallelBuildOn="true" parallelBuildWorkspaceOn="true" parallelizationNumber="optimal" superClass="com.freescale.arm.cdt.toolchain.builder"/>
+							<tool errorParsers="" id="com.freescale.arm.cdt.toolchain.linker.790190454" name="ARM Linker" superClass="com.freescale.arm.cdt.toolchain.linker">
+								<option id="com.freescale.arm.cdt.toolchain.linker.libraries.libSearch.189993708" name="Library Search Paths" superClass="com.freescale.arm.cdt.toolchain.linker.libraries.libSearch" valueType="stringList">
+									<listOptionValue builtIn="false" value="&quot;${MCUToolsBaseDir}/ARM_EABI_Support/ewl/lib&quot;"/>
+								</option>
+								<option id="com.freescale.arm.cdt.toolchain.linker.commandFile.2143136065" name="Linker Command File" superClass="com.freescale.arm.cdt.toolchain.linker.commandFile" value="${ProjDirPath}/Project_Settings/Linker_Files/ProcessorExpert.lcf" valueType="string"/>
+								<option id="com.freescale.arm.cdt.toolchain.option.linkorder.57351951" superClass="com.freescale.arm.cdt.toolchain.option.linkorder" valueType="stringList">
+									<listOptionValue builtIn="false" value="Generated_Code/Cpu.c"/>
+									<listOptionValue builtIn="false" value="Generated_Code/PE_LDD.c"/>
+									<listOptionValue builtIn="false" value="Generated_Code/Pins1.c"/>
+									<listOptionValue builtIn="false" value="Sources/Events.c"/>
+									<listOptionValue builtIn="false" value="Sources/app/Boot_loader_task.c"/>
+									<listOptionValue builtIn="false" value="Sources/app/FAT16.c"/>
+									<listOptionValue builtIn="false" value="Sources/app/Loader.c"/>
+									<listOptionValue builtIn="false" value="Sources/app/RealTimerCounter_kinetis.c"/>
+									<listOptionValue builtIn="false" value="Sources/app/disk.c"/>
+									<listOptionValue builtIn="false" value="Sources/app/flash_driver/flash_FTFE.c"/>
+									<listOptionValue builtIn="false" value="Sources/app/main_kinetis.c"/>
+									<listOptionValue builtIn="false" value="Sources/app/printf.c"/>
+									<listOptionValue builtIn="false" value="Sources/app/sci.c"/>
+									<listOptionValue builtIn="false" value="Sources/app/usb_descriptor.c"/>
+									<listOptionValue builtIn="false" value="Sources/app/vectors_k64.c"/>
+									<listOptionValue builtIn="false" value="Sources/app/wdt_kinetis.c"/>
+									<listOptionValue builtIn="false" value="Sources/class/usb_class.c"/>
+									<listOptionValue builtIn="false" value="Sources/class/usb_msc.c"/>
+									<listOptionValue builtIn="false" value="Sources/class/usb_msc_scsi.c"/>
+									<listOptionValue builtIn="false" value="Sources/driver/usb_dci_kinetis.c"/>
+									<listOptionValue builtIn="false" value="Sources/driver/usb_driver.c"/>
+									<listOptionValue builtIn="false" value="Sources/driver/usb_framework.c"/>
+									<listOptionValue builtIn="false" value="Sources/main.c"/>
+									<listOptionValue builtIn="false" value="Static_Code/Peripherals/ADC0_Init.c"/>
+									<listOptionValue builtIn="false" value="Static_Code/Peripherals/ADC1_Init.c"/>
+									<listOptionValue builtIn="false" value="Static_Code/Peripherals/AIPS0_Init.c"/>
+									<listOptionValue builtIn="false" value="Static_Code/Peripherals/AIPS1_Init.c"/>
+									<listOptionValue builtIn="false" value="Static_Code/Peripherals/AXBS_Init.c"/>
+									<listOptionValue builtIn="false" value="Static_Code/Peripherals/CAN0_Init.c"/>
+									<listOptionValue builtIn="false" value="Static_Code/Peripherals/CMP0_Init.c"/>
+									<listOptionValue builtIn="false" value="Static_Code/Peripherals/CMP1_Init.c"/>
+									<listOptionValue builtIn="false" value="Static_Code/Peripherals/CMP2_Init.c"/>
+									<listOptionValue builtIn="false" value="Static_Code/Peripherals/CMT_Init.c"/>
+									<listOptionValue builtIn="false" value="Static_Code/Peripherals/CRC_Init.c"/>
+									<listOptionValue builtIn="false" value="Static_Code/Peripherals/DAC0_Init.c"/>
+									<listOptionValue builtIn="false" value="Static_Code/Peripherals/DAC1_Init.c"/>
+									<listOptionValue builtIn="false" value="Static_Code/Peripherals/DMAMUX_Init.c"/>
+									<listOptionValue builtIn="false" value="Static_Code/Peripherals/DMA_Init.c"/>
+									<listOptionValue builtIn="false" value="Static_Code/Peripherals/EWM_Init.c"/>
+									<listOptionValue builtIn="false" value="Static_Code/Peripherals/FB_Init.c"/>
+									<listOptionValue builtIn="false" value="Static_Code/Peripherals/FMC_Init.c"/>
+									<listOptionValue builtIn="false" value="Static_Code/Peripherals/FTFE_Init.c"/>
+									<listOptionValue builtIn="false" value="Static_Code/Peripherals/FTM0_Init.c"/>
+									<listOptionValue builtIn="false" value="Static_Code/Peripherals/FTM1_Init.c"/>
+									<listOptionValue builtIn="false" value="Static_Code/Peripherals/FTM2_Init.c"/>
+									<listOptionValue builtIn="false" value="Static_Code/Peripherals/FTM3_Init.c"/>
+									<listOptionValue builtIn="false" value="Static_Code/Peripherals/I2C0_Init.c"/>
+									<listOptionValue builtIn="false" value="Static_Code/Peripherals/I2C1_Init.c"/>
+									<listOptionValue builtIn="false" value="Static_Code/Peripherals/I2C2_Init.c"/>
+									<listOptionValue builtIn="false" value="Static_Code/Peripherals/I2S0_Init.c"/>
+									<listOptionValue builtIn="false" value="Static_Code/Peripherals/LLWU_Init.c"/>
+									<listOptionValue builtIn="false" value="Static_Code/Peripherals/LPTMR0_Init.c"/>
+									<listOptionValue builtIn="false" value="Static_Code/Peripherals/MCM_Init.c"/>
+									<listOptionValue builtIn="false" value="Static_Code/Peripherals/MPU_Init.c"/>
+									<listOptionValue builtIn="false" value="Static_Code/Peripherals/NVIC_Init.c"/>
+									<listOptionValue builtIn="false" value="Static_Code/Peripherals/PDB0_Init.c"/>
+									<listOptionValue builtIn="false" value="Static_Code/Peripherals/PIT_Init.c"/>
+									<listOptionValue builtIn="false" value="Static_Code/Peripherals/PMC_Init.c"/>
+									<listOptionValue builtIn="false" value="Static_Code/Peripherals/PORTA_Init.c"/>
+									<listOptionValue builtIn="false" value="Static_Code/Peripherals/PORTB_Init.c"/>
+									<listOptionValue builtIn="false" value="Static_Code/Peripherals/PORTC_Init.c"/>
+									<listOptionValue builtIn="false" value="Static_Code/Peripherals/PORTD_Init.c"/>
+									<listOptionValue builtIn="false" value="Static_Code/Peripherals/PORTE_Init.c"/>
+									<listOptionValue builtIn="false" value="Static_Code/Peripherals/PTA_Init.c"/>
+									<listOptionValue builtIn="false" value="Static_Code/Peripherals/PTB_Init.c"/>
+									<listOptionValue builtIn="false" value="Static_Code/Peripherals/PTC_Init.c"/>
+									<listOptionValue builtIn="false" value="Static_Code/Peripherals/PTD_Init.c"/>
+									<listOptionValue builtIn="false" value="Static_Code/Peripherals/PTE_Init.c"/>
+									<listOptionValue builtIn="false" value="Static_Code/Peripherals/RCM_Init.c"/>
+									<listOptionValue builtIn="false" value="Static_Code/Peripherals/RNG_Init.c"/>
+									<listOptionValue builtIn="false" value="Static_Code/Peripherals/RTC_Init.c"/>
+									<listOptionValue builtIn="false" value="Static_Code/Peripherals/SDHC_Init.c"/>
+									<listOptionValue builtIn="false" value="Static_Code/Peripherals/SIM_Init.c"/>
+									<listOptionValue builtIn="false" value="Static_Code/Peripherals/SMC_Init.c"/>
+									<listOptionValue builtIn="false" value="Static_Code/Peripherals/SPI0_Init.c"/>
+									<listOptionValue builtIn="false" value="Static_Code/Peripherals/SPI1_Init.c"/>
+									<listOptionValue builtIn="false" value="Static_Code/Peripherals/SPI2_Init.c"/>
+									<listOptionValue builtIn="false" value="Static_Code/Peripherals/SysTick_Init.c"/>
+									<listOptionValue builtIn="false" value="Static_Code/Peripherals/SystemControl_Init.c"/>
+									<listOptionValue builtIn="false" value="Static_Code/Peripherals/UART0_Init.c"/>
+									<listOptionValue builtIn="false" value="Static_Code/Peripherals/UART1_Init.c"/>
+									<listOptionValue builtIn="false" value="Static_Code/Peripherals/UART2_Init.c"/>
+									<listOptionValue builtIn="false" value="Static_Code/Peripherals/UART3_Init.c"/>
+									<listOptionValue builtIn="false" value="Static_Code/Peripherals/UART4_Init.c"/>
+									<listOptionValue builtIn="false" value="Static_Code/Peripherals/UART5_Init.c"/>
+									<listOptionValue builtIn="false" value="Static_Code/Peripherals/USB0_Init.c"/>
+									<listOptionValue builtIn="false" value="Static_Code/Peripherals/USBDCD_Init.c"/>
+									<listOptionValue builtIn="false" value="Static_Code/Peripherals/VREF_Init.c"/>
+									<listOptionValue builtIn="false" value="Static_Code/Peripherals/WDOG_Init.c"/>
+									<listOptionValue builtIn="false" value="Static_Code/System/CPU_Init.c"/>
+									<listOptionValue builtIn="false" value="Static_Code/System/Peripherals_Init.c"/>
+									<listOptionValue builtIn="false" value="Static_Code/System/Vectors.c"/>
+								</option>
+								<option id="com.freescale.arm.cdt.toolchain.linker.generateMapFile.1056959724" superClass="com.freescale.arm.cdt.toolchain.linker.generateMapFile" value="true" valueType="boolean"/>
+								<option id="com.freescale.arm.cdt.toolchain.linker.generateSymTab.1177317726" superClass="com.freescale.arm.cdt.toolchain.linker.generateSymTab" value="true" valueType="boolean"/>
+								<option id="com.freescale.arm.cdt.toolchain.linker.generateSRecord.627086028" superClass="com.freescale.arm.cdt.toolchain.linker.generateSRecord" value="true" valueType="boolean"/>
+								<option id="com.freescale.arm.cdt.toolchain.linker.generateXRecord.2078700360" superClass="com.freescale.arm.cdt.toolchain.linker.generateXRecord" value="true" valueType="boolean"/>
+								<inputType id="com.freescale.arm.cdt.toolchain.linker.input.1208133244" name="ARM Linker Input" superClass="com.freescale.arm.cdt.toolchain.linker.input">
+									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
+									<additionalInput kind="additionaldependency" paths="$(LCF_SRCS)"/>
+								</inputType>
+							</tool>
+							<tool errorParsers="" id="com.freescale.arm.cdt.toolchain.compiler.1188146983" name="ARM Compiler" superClass="com.freescale.arm.cdt.toolchain.compiler">
+								<option id="com.freescale.arm.cdt.toolchain.armCpp.input.userIncludes.425856643" name="Include User Search Paths (-i)" superClass="com.freescale.arm.cdt.toolchain.armCpp.input.userIncludes" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Project_Headers&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${MCUToolsBaseDir}/ARM_EABI_Support/ewl/EWL_C/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Generated_Code&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Sources&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProcessorExpertPath}/lib/Kinetis/pdd2/MK24FN1M0LQ12/peripherals&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProcessorExpertPath}/lib/Kinetis/pdd2/MK24FN1M0LQ12/system&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProcessorExpertPath}/lib/Kinetis/pdd/inc&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProcessorExpertPath}/lib/Kinetis/iofiles&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}\&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}\..\..\..&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}\..\..\..\flash_driver&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}\..\..\..\..\..\source\driver&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}\..\..\..\..\..\source\driver\kinetis&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}\..\..\..\..\..\source\common&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}\..\..\..\..\..\source\class&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}\..\..\..\..\..\app\common&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}\..\..\..\..\..\app\common\kinetis&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Project_Headers&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${MCUToolsBaseDir}/ARM_EABI_Support/ewl/EWL_C/include&quot;"/>
+								</option>
+								<option id="com.freescale.arm.cdt.toolchain.armCpp.language.cpp.exceptions.1712872484" name="Enable Exceptions" superClass="com.freescale.arm.cdt.toolchain.armCpp.language.cpp.exceptions" value="false" valueType="boolean"/>
+								<option id="com.freescale.arm.cdt.toolchain.armCpp.input.define.1647432382" name="Defined Macros" superClass="com.freescale.arm.cdt.toolchain.armCpp.input.define" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="LITTLE_ENDIAN"/>
+								</option>
+								<inputType id="com.freescale.arm.cdt.toolchain.armCpp.cSource.356799181" name="ARM C/C++ Compiler" superClass="com.freescale.arm.cdt.toolchain.armCpp.cSource"/>
+							</tool>
+							<tool errorParsers="" id="com.freescale.arm.cdt.toolchain.assembler.382897841" name="ARM Assembler" superClass="com.freescale.arm.cdt.toolchain.assembler">
+								<option id="com.freescale.arm.cdt.toolchain.armAsm.include.1605612560" name="Include User Search Paths (-i)" superClass="com.freescale.arm.cdt.toolchain.armAsm.include" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Generated_Code&quot;"/>
+								</option>
+								<inputType id="com.freescale.arm.cdt.toolchain.armAsm.input.1430267924" name="ARM Assembler Input" superClass="com.freescale.arm.cdt.toolchain.armAsm.input"/>
+							</tool>
+							<tool errorParsers="" id="com.freescale.arm.cdt.toolchain.preproc.1928254406" name="ARM Preprocessor" superClass="com.freescale.arm.cdt.toolchain.preproc"/>
+							<tool errorParsers="" id="com.freescale.arm.cdt.toolchain.disassembler.629848730" name="ARM Disassembler" superClass="com.freescale.arm.cdt.toolchain.disassembler"/>
+						</toolChain>
+					</folderInfo>
+					<fileInfo id="com.freescale.arm.cdt.toolchain.config.arm.release.512346547..settings/com.freescale.processorexpert.core.prefs" name="com.freescale.processorexpert.core.prefs" rcbsApplicability="disable" resourcePath=".settings/com.freescale.processorexpert.core.prefs" toolsToInvoke=""/>
+					<sourceEntries>
+						<entry excluding=".settings/com.freescale.processorexpert.core.prefs" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+					</sourceEntries>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+		<project id="Kinetis_MK24FN1M0VDC12_msd_bootPE.com.freescale.arm.cdt.toolchain.project.arm.806599678" name="ARM Project" projectType="com.freescale.arm.cdt.toolchain.project.arm"/>
+	</storageModule>
+	<storageModule moduleId="scannerConfiguration">
+		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		<scannerConfigBuildInfo instanceId="com.freescale.arm.cdt.toolchain.config.arm.release.1461122949;com.freescale.arm.cdt.toolchain.config.arm.release.1461122949.;com.freescale.arm.cdt.toolchain.compiler.1895217158;com.freescale.arm.cdt.toolchain.armCpp.cSource.1475216390">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="com.freescale.arm.cdt.toolchain.c.symbols.discoveryProfile"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.freescale.arm.cdt.toolchain.config.arm.release.512346547;com.freescale.arm.cdt.toolchain.config.arm.release.512346547.;com.freescale.arm.cdt.toolchain.compiler.1188146983;com.freescale.arm.cdt.toolchain.armCpp.cSource.356799181">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="com.freescale.arm.cdt.toolchain.c.symbols.discoveryProfile"/>
+		</scannerConfigBuildInfo>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.core.pathentry"/>
+	<storageModule moduleId="refreshScope"/>
+</cproject>
