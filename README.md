@@ -3,6 +3,8 @@
 ### This repository contains the firmware source files for the WunderBar hardware.
 Please check the readme files located in the sub-directories for instructions on compiling and flashing the firmware.
 
+### The hardware design files (Altium Designer Project, Schematics & layout in PDF, gerbers and BOM) can be found here: https://github.com/relayr/wunderbar-hardware
+
 ##Project structure:
 
 * The **"/USB_MSD_Device_bootloader_v1.0"** directory contains the USB Mass Storage Device Bootloader for the Kinetis K24 MCU. This is useful to update the firmware over USB using the drag and drop method.
