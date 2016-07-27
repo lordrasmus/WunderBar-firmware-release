@@ -1,9 +1,10 @@
 # The WunderBar Firmware
 
-### This repository contains the firmware source files for the WunderBar hardware.
+## This repository contains the firmware source files for the WunderBar hardware.
 Please check the readme files located in the sub-directories for instructions on compiling and flashing the firmware.
 
-### The hardware design files (Altium Designer Project, Schematics & layout in PDF, gerbers and BOM) can be found here: https://github.com/relayr/wunderbar-hardware
+### Hardware design files:
+The necesary files of the WunderBar hardware (Altium Designer Project, Schematics & layout in PDF, gerbers and BOM) can be found here: https://github.com/relayr/wunderbar-hardware
 
 ##Project structure:
 
